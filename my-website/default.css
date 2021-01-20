@@ -24,7 +24,7 @@ h1, h2, h3, h4, h5, h6, strong {
     font-weight: 500;
 }
 
-p, li, span, label, input, textarea {
+p, li, span, label, input, textarea, a {
     color: var(--secondaryText);
     font-family: 'Roboto Mono', monospace;
 }
@@ -262,6 +262,30 @@ h6 {
 #corner-bl {
     bottom: -5px;
     left: -5px;
+}
+
+.about-wrapper {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    gap: 100px;
+    padding-bottom: 50px;
+    padding-top: 50px;
+}
+
+#skills {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: var(--previewShadow);
+}
+
+.social-links {
+    display: grid;
+    align-content: center;
+    text-align: center;
+}
+
+#social_img {
+    width: 100%;
 }
 
 @media screen and (max-width: 1200px) {
