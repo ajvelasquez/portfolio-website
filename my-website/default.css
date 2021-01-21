@@ -93,9 +93,9 @@ h6 {
     border-color: 1px solid var(--borderColor);
     border-radius: 5px 5px 0 0;
 
-    box-shadow: -1px 1px 3px -1px rgba(0, 0, 0, 0.75);
     -webkit-box-shadow: -1px 1px 3px -1px rgba(0, 0, 0, 0.75);
     -moz-box-shadow: -1px 1px 3px -1px rgba(0, 0, 0, 0.75);
+    box-shadow: -1px 1px 3px -1px rgba(0, 0, 0, 0.75);
 
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -161,10 +161,10 @@ h6 {
 }
 
 #profile_pic {
-    width: 200px;
-    height: 200px;
     display: block;
     margin: 0 auto;
+    width: 200px;
+    height: 200px;
     object-fit: cover;
     border: 2px solid var(--borderColor);
 }
@@ -181,9 +181,9 @@ h6 {
     border-radius: 50px;
     margin: 5px;
     border: 2px solid var(--themeDotBorder);
-    box-shadow: -1px 1px 3px -1px rgba(0, 0, 0, 0.75);
     -webkit-box-shadow: -1px 1px 3px -1px rgba(0, 0, 0, 0.75);
     -moz-box-shadow: -1px 1px 3px -1px rgba(0, 0, 0, 0.75);
+    box-shadow: -1px 1px 3px -1px rgba(0, 0, 0, 0.75);
     cursor: pointer;
 }
 
@@ -270,9 +270,9 @@ h6 {
 .about-wrapper {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
-    gap: 100px;
     padding-bottom: 50px;
     padding-top: 50px;
+    gap: 100px;
 }
 
 #skills {
@@ -301,9 +301,9 @@ h6 {
 
 .post {
     border: 1px solid var(--borderColor);
-    box-shadow: -1px 1px 3px -1px rgba(0, 0, 0, 0.75);
     -webkit-box-shadow: -1px 1px 3px -1px rgba(0, 0, 0, 0.75);
     -moz-box-shadow: -1px 1px 3px -1px rgba(0, 0, 0, 0.75);
+    box-shadow: -1px 1px 3px -1px rgba(0, 0, 0, 0.75);
 }
 
 .thumbnail {
